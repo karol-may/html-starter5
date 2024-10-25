@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="pl" class="dark">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,8 +13,34 @@
       name="description"
       content="High-performance HTML based website template."
     />
+    <style>
+      div, body {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: black;
+        background-image: url("public/bg.jpg");
+        background-size: cover;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      div {
+        background-color: blueviolet;
+        width: 50vw;
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
   </head>
   <body>
-   
+   <div>
+      <Button>Zapisz się</Button>
+   </div>
   </body>
 </html>
